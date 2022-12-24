@@ -1,0 +1,156 @@
+* {
+  font-family: "Poppins", sans-serif;
+  background-color: rgb(0, 0, 0);
+  margin: 0;
+  padding: 0;
+  color: aqua;
+  font-size: 0.9rem;
+  box-sizing: border-box;
+}
+
+/* navbar */
+.navbar {
+  height: 80px;
+  padding-top: 25px;
+  /* font-size: .8rem; */
+  font-weight: bold;
+}
+
+a {
+  cursor: pointer;
+  /* transition: 1s ease-in-out; */
+}
+
+/* .navbar img { */
+/* width: 60px; */
+/* height: 60px; */
+/* background-color: #fff; */
+/* } */
+
+.navbar ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar ul li {
+  list-style: none;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+}
+
+.navbar ul li a:hover {
+  text-decoration: aqua;
+  color: rgb(255, 255, 255);
+  /* background-color: ; */
+}
+
+.search {
+  border: 1px solid rgb(70, 70, 70);
+  float: right;
+  margin-top: 10px;
+  margin-right: 15px;
+}
+
+.search-logo {
+  float: right;
+  font-size: 10px;
+  margin-top: 11px;
+  /* margin-right: 3px; */
+  color: rgb(70, 70, 70);
+  background-color: rgb(223, 223, 223);
+  padding: 5px 5px;
+}
+/* navbar *
+
+/* bg */
+.bg-top {
+  margin-top: 40px;
+  background-image: url("image/bg-top.jpg");
+  width: 100vw;
+  height: 100px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/* menu 2 */
+.menu-bottom {
+  display: flex;
+  margin-top: 100px;
+  padding-top: 20px;
+}
+
+.menu-bottom ul {
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu-bottom ul li {
+  list-style: none;
+}
+.menu-bottom ul li a {
+  text-decoration: none;
+}
+
+.menu-bottom a:hover {
+  color: white;
+}
+
+/* container utama */
+.container {
+  margin-top: 15px;
+  text-align: center;
+  padding-top: 10px;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    54deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(21, 21, 21, 1) 19%,
+    rgba(37, 37, 37, 1) 35%,
+    rgba(51, 51, 51, 1) 67%,
+    rgba(136, 136, 136, 1) 94%,
+    rgba(233, 233, 233, 1) 100%
+  );
+}
+
+.container span {
+  padding: 5px 50px 5px;
+  margin-bottom: 151px;
+  /* border-radius: px; */
+}
+
+.container .product {
+  width: 170px;
+  margin-top: 15px;
+  height: 170px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px rgb(255, 255, 255);
+}
+
+.product-1 {
+  background-color: rgb(61, 57, 57);
+}
+
+#popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: none;
+}
+
+#popup-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 20px;
+}
+
+#popup {
+  color: black;
+}

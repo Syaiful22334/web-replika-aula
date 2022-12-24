@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Aula</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- icon -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- navbar -->
+    <div class="navbar">
+      <!-- <img src="image/logo.png" alt="logo" /> -->
+      <div class="menu">
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">Buy</a></li>
+          <li><a href="">About Us</a></li>
+        </ul>
+        <input
+          class="search"
+          type="search"
+          placeholder="   Search"
+          name=""
+          id=""
+        /><i class="search-logo bx bx-search-alt-2"></i>
+      </div>
+      <div class="bg-top"></div>
+    </div>
+
+    <!-- list bawah -->
+    <div class="menu-bottom">
+      <ul>
+        <li><a href="">Headset</a></li>
+        <li><a href="">Chair</a></li>
+        <li><a href="">Mouse</a></li>
+        <li><a href="">Earphone</a></li>
+      </ul>
+    </div>
+
+    <!-- pop up produk -->
+
+    <div id="popup">
+      <div id="popup-content">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias eaque
+        doloremque non reiciendis error voluptatibus suscipit molestias rem
+        accusamus fugiat?
+        <button onclick="closeBox()">Tutup</button>
+      </div>
+    </div>
+
+    <!-- container -->
+
+    <div class="container">
+      <div class="span-1">>> Headset</div>
+      <br />
+      <img onclick="openBox()" class="product" src="image/headset.jpg" alt="" />
+      <a href="#"
+        ><img class="product-1 product" src="image/headset.png" alt=""
+      /></a>
+      <a href="#"
+        ><img class="product-1 product" src="image/headset.png" alt=""
+      /></a>
+      <a href="#"><img class="product" src="image/headset.jpg" alt="" /></a>
+      <a href="#"
+        ><img class="product-1 product" src="image/headset.png" alt=""
+      /></a>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
